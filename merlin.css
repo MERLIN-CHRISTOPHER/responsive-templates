@@ -1,0 +1,331 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+body{
+    margin: 0;
+
+}
+img{
+    width: 100%;
+    
+    
+
+}
+.flex{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.414),rgb(250, 226, 8));
+    
+    
+    
+}
+
+
+.kata{
+    font-size: x-large;
+    color: rgba(251, 2, 2, 0.383);
+margin-left: 10%;
+    
+
+}
+.flex1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    width: 100%;
+    
+    
+    
+    
+    text-align: center;
+
+}
+.flex1 div{
+    
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+/*
+a
+{
+    text-decoration: none;
+    font-size: medium;
+    border-style: solid;
+    border-color: crimson ;
+    background-color: aqua;
+}
+*/
+.inline a{
+    display: inline;
+    padding: 20px;
+    text-align: right;
+    margin-top: 50px;
+    margin-left: 70px;
+    
+    color: rgb(66, 98, 18);
+    
+    text-decoration: none;
+    font-size: medium;
+    
+    
+    background-color: aqua;
+}
+.er{
+    border-style: ridge;
+    border-radius: 70%;
+}
+
+
+
+.flex2{
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 10%;
+margin-right: 10%;
+border-style: double;
+border-color: aqua;
+background-image: linear-gradient(to right,skyblue,rgb(20, 49, 237));
+justify-content: center;
+align-content: center;
+  
+}   
+    
+.flex2 div{
+
+
+margin: auto;
+    width: 10%;
+    height: 200px;
+    
+}  
+
+.flex2 div img{
+    height: 200px;
+    width: 100%;
+    border-radius: 70%;
+    
+}
+                .flex3{
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 10%;
+                
+                }
+
+
+
+                    .flex3 div{
+                        width: 40%;
+                    }
+
+                    .wel{
+                        color: #0d0d0c;
+                        font-size: xx-large;
+                        font-family: Arial, Helvetica, sans-serif;
+                        border-right-style: solid;
+                        margin-right: 10px;
+                        
+                    }
+                    .yy{
+                        border-style: none;
+                        color: tomato;
+                        font-size: larger;
+                    }
+
+                    .flex4{
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin-left: 10%;
+                        column-gap: 10px;
+                        margin-top: 30px;
+                    }
+                    .flex4 div{
+                        width: 20%;
+                        padding: 30px;
+                    }
+
+
+                    button{
+                        background-color: #2be70a;
+                        padding: 10px;
+                        color: azure;
+                    }
+
+
+
+                    .flex6{
+                        display: flex;
+                        flex-wrap: wrap;
+                        
+                        margin: auto;
+                        
+                        
+                        margin-left: 10%;
+                        margin-top: 50px;
+                        column-gap: 20px;
+                        
+                        
+                    }
+                    .flex6 div{
+                        width: 30%;
+                    }
+                    .chris{
+                        display: flex;
+                        flex-wrap: wrap;
+                        gap: 10px;
+                        
+                    }
+                    .chris div{
+                        width: 20%;
+                    }
+
+
+
+              .end{
+                  height: 70px;
+                  background-color: rgb(243, 53, 20);
+                  color: aliceblue;
+                  text-align: center;
+                  margin-top: 30px;
+                  padding: 30px;
+              }
+
+              .end i{
+                  color: yellow;
+                  width: 60px;
+                  font-size: x-large;
+
+              }
+              .end i:hover{
+                  background-color: aqua;
+              }
+                  
+@media only screen and (max-width: 576px){
+.flex{
+    width: 100%;
+}
+
+    .flex1 .kata{
+    width: 100%;
+    background-color: black;
+    margin: 0;
+    color: chartreuse;
+    }
+
+    .inline{
+        width: 100%;
+    margin-top: 0;
+        margin: 0 auto;
+        padding: 0;
+        margin-left: 0;
+        font-size: small;
+        margin-bottom: 40px;
+        background-color: black;
+    }
+
+.inline a{
+    width: 20%;
+    margin-left: 0;
+    padding: 8px;
+    margin: 0%;
+    
+}
+.flex1 div{
+  margin-bottom: 30px;
+}
+.flex2{
+    width: 100%;
+    height: 250px;
+    text-align: center;
+    margin: 0;
+}
+.flex2 div{
+    margin: auto;
+    width: 15%;
+    
+}
+.flex2 div img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.flex3{
+    margin: 0;
+}
+.flex3 div{
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+
+}
+.wel{
+    background-color: cornsilk;
+    margin: 8px;
+}
+.flex3 div a{
+    text-decoration: none;
+}
+.flex4{
+    margin: 10px;
+    text-align: center;
+    margin-top: 10px;
+
+}
+.flex4 div{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding: 0%;
+
+}
+.flex4 div img{
+    width: 100%;
+    height: 100%;
+}
+.flex6{
+    margin: 10px;
+    text-align: center;
+
+}
+
+.flex6 div{
+    width: 100%;
+    text-align: center;
+
+}
+.flex6 .disc{
+    margin: 25px;
+    text-align: center;
+}
+.end div{
+    padding: 0%;
+    margin: 0%;
+}
+.end i{
+    width: 20px;
+    font-size: medium;
+}
+ .chris h1{
+    text-align: center;
+}
+
+
+.chris div{
+
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+
+}
+
+        
+                    
+
